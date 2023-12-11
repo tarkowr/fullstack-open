@@ -84,11 +84,11 @@ sequenceDiagram
 
 ## Part 1 - Introduction to React
 
-Vite is a build tool (like webpack) to provide a faster web development experience
-JSX is returned from React components and it is compiled to JavaScript (this compilation is handled by Babel)
+Vite is a build tool (like webpack) to provide a faster web development experience  
+JSX is returned from React components and it is compiled to JavaScript (this compilation is handled by Babel)  
 Edit eslintrc.cjs to silence/add ESLint warnings
 
-ECMAScript: the JavaScript standard so that web pages work across multiple browsers
-NodeJS: JavaScript runtime engine so that js can be run anywhere
-concat(x) returns array with new item (x) added to it
+ECMAScript: the JavaScript standard so that web pages work across multiple browsers  
+NodeJS: JavaScript runtime engine so that js can be run anywhere  
+concat(x) returns array with new item (x) added to it  
 Use destructuring to assign values of obj/arr to variables
