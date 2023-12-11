@@ -81,3 +81,9 @@ sequenceDiagram
     server-->>browser: 201 Status
     deactivate server
 ```
+
+## Part 1 - Introduction to React
+
+Vite is a build tool (like webpack) to provide a faster web development experience
+JSX is returned from React components and it is compiled to JavaScript (this compilation is handled by Babel)
+Edit eslintrc.cjs to silence/add ESLint warnings
