@@ -91,4 +91,13 @@ Edit eslintrc.cjs to silence/add ESLint warnings
 ECMAScript: the JavaScript standard so that web pages work across multiple browsers  
 NodeJS: JavaScript runtime engine so that js can be run anywhere  
 concat(x) returns array with new item (x) added to it  
-Use destructuring to assign values of obj/arr to variables
+Use destructuring to assign values of obj/arr to variables  
+Ex: `const { name, age } = props` grabs `props.name` and `props.age` and assigns them to `name` and `age`
+
+React hooks allow us to use stateful logic in our React functions  
+Best practice: lift shared state up to the closest common ancestor  
+Calling a function that changes state causes the component to rerender
+
+State update in React happens async... not immediately but sometime before the component is rendered again  
+Hooks must ALWAYS be called in the same order on each render (no hooks in loops, conditions, etc)  
+Best practice: do not define a component within another component
