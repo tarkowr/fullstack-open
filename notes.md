@@ -101,3 +101,7 @@ Calling a function that changes state causes the component to rerender
 State update in React happens async... not immediately but sometime before the component is rendered again  
 Hooks must ALWAYS be called in the same order on each render (no hooks in loops, conditions, etc)  
 Best practice: do not define a component within another component
+
+## Part 2 - Communicating with the server
+
+If you plan on modifying a js array that you map to jsx element, it is an anti-pattern to use map `index` as element `key`
